@@ -1,0 +1,1643 @@
+2010/03/19 03:26:54 [error] 20373#0: *1 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote?host=google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 03:27:24 [info] 20373#0: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 03:57:19 [info] 20373#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 03:57:50 [error] 20373#0: *6 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote?host=google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 03:58:20 [info] 20373#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 03:58:51 [error] 20373#0: *9 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote?host=127.0.0.1:9501 HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:08:37 [error] 20373#0: *10 no host in upstream "", client: 127.0.0.1, server: localhost, request: "GET /remote?google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:08:41 [error] 20373#0: *11 no host in upstream "", client: 127.0.0.1, server: localhost, request: "GET /remote/google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:10:07 [error] 20459#0: *12 invalid host in upstream "/google.com", client: 127.0.0.1, server: localhost, request: "GET /remote/google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:10:49 [error] 20469#0: *15 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote/google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:11:24 [info] 20469#0: *16 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:11:24 [error] 20469#0: *18 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote/google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:11:33 [error] 20469#0: *19 zero length URI to proxy, client: 127.0.0.1, server: localhost, request: "GET /remote/www.google.com HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:12:10 [error] 20489#0: *21 upstream sent too big header while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /remote/?host=www.google.com HTTP/1.1", upstream: "http://216.239.61.104:80/", host: "localhost:9510"
+2010/03/19 04:12:26 [info] 20489#0: *21 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:13:12 [info] 20489#0: *24 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:14:11 [info] 20498#0: *30 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:15:43 [info] 20525#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:16:08 [error] 20525#0: *3 invalid host in upstream "/", client: 127.0.0.1, server: localhost, request: "GET /remote?127.0.0.1:9501 HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:18:43 [info] 20543#0: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:20:09 [info] 20554#0: *21 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:20:18 [info] 20554#0: *16 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:22:24 [info] 20580#0: *23 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:23:18 [info] 20580#0: *25 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:27:41 [info] 20617#0: *34 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:31:58 [info] 20629#0: *37 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:32:43 [info] 20643#0: *39 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:33:10 [info] 20661#0: *41 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:37:09 [error] 20681#0: *43 open() "/Users/tyler/Code/dist-demo/fuck/fuck" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /fuck HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:37:22 [error] 20681#0: *43 open() "/Users/tyler/Code/dist-demo/fuck/fuck/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /fuck/index.html HTTP/1.1", host: "localhost:9510"
+2010/03/19 04:38:24 [info] 20688#0: *44 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:39:18 [info] 20696#0: *47 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:40:13 [info] 20696#0: *50 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:41:09 [info] 20706#0: *66 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:41:44 [info] 20706#0: *69 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:43:13 [info] 20706#0: *72 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:44:40 [info] 20714#0: *87 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:45:27 [info] 20723#0: *92 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 04:58:41 [info] 20769#0: *95 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:00:35 [info] 20769#0: *98 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:00:45 [info] 20790#0: *100 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:04:42 [info] 20824#0: *102 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:05:17 [info] 20824#0: *104 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:05:24 [info] 20824#0: *106 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:10:20 [info] 24043#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:16:35 [info] 24043#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:17:56 [info] 24060#0: *13 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:22:37 [info] 24085#0: *18 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 05:23:25 [info] 24085#0: *15 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:41:51 [debug] 27399#0: kevent set event: 7: ft:-1 fl:0005
+2010/03/19 10:42:04 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:42:04 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:42:04 [debug] 27399#0: *1 accept: 127.0.0.1 fd:8
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer add: 8: 60000:1269020584259
+2010/03/19 10:42:04 [debug] 27399#0: *1 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:42:04 [debug] 27399#0: *1 malloc: 000000010080FE00:1248
+2010/03/19 10:42:04 [debug] 27399#0: *1 malloc: 00000001003016D0:256
+2010/03/19 10:42:04 [debug] 27399#0: *1 malloc: 0000000100803A00:1024
+2010/03/19 10:42:04 [debug] 27399#0: *1 malloc: 000000010081DA00:4096
+2010/03/19 10:42:04 [debug] 27399#0: *1 http process request line
+2010/03/19 10:42:04 [debug] 27399#0: *1 recv: eof:0, avail:130, err:0
+2010/03/19 10:42:04 [debug] 27399#0: *1 recv: fd:8 130 of 1024
+2010/03/19 10:42:04 [debug] 27399#0: *1 http request line: "GET / HTTP/1.1"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http uri: "/"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http args: ""
+2010/03/19 10:42:04 [debug] 27399#0: *1 http exten: ""
+2010/03/19 10:42:04 [debug] 27399#0: *1 http process request header line
+2010/03/19 10:42:04 [debug] 27399#0: *1 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http header: "Host: localhost:9510"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http header: "Accept: */*"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http header done
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer del: 8: 1269020584259
+2010/03/19 10:42:04 [debug] 27399#0: *1 generic phase: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 test location: "/"
+2010/03/19 10:42:04 [debug] 27399#0: *1 using configuration "/"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http cl:-1 max:1048576
+2010/03/19 10:42:04 [debug] 27399#0: *1 generic phase: 2
+2010/03/19 10:42:04 [debug] 27399#0: *1 post rewrite phase: 3
+2010/03/19 10:42:04 [debug] 27399#0: *1 generic phase: 4
+2010/03/19 10:42:04 [debug] 27399#0: *1 generic phase: 5
+2010/03/19 10:42:04 [debug] 27399#0: *1 access phase: 6
+2010/03/19 10:42:04 [debug] 27399#0: *1 access phase: 7
+2010/03/19 10:42:04 [debug] 27399#0: *1 post access phase: 8
+2010/03/19 10:42:04 [debug] 27399#0: *1 http init upstream, client timer: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:42:04 [debug] 27399#0: *1 http script copy: "Host: "
+2010/03/19 10:42:04 [debug] 27399#0: *1 http script var: "127.0.0.1:9505"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http script copy: "
+"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http script copy: "Connection: close
+"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http proxy header: "Accept: */*"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http cleanup add: 000000010081E990
+2010/03/19 10:42:04 [debug] 27399#0: *1 get rr peer, try: 1
+2010/03/19 10:42:04 [debug] 27399#0: *1 socket 11
+2010/03/19 10:42:04 [debug] 27399#0: *1 connect to 127.0.0.1:9505, fd:11 #2
+2010/03/19 10:42:04 [debug] 27399#0: *1 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:42:04 [debug] 27399#0: *1 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:42:04 [debug] 27399#0: *1 http upstream connect: -2
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer add: 11: 60000:1269020584259
+2010/03/19 10:42:04 [debug] 27399#0: *1 http run request: "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http upstream check client, write event:1, "/"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http upstream request: "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http upstream send request handler
+2010/03/19 10:42:04 [debug] 27399#0: *1 http upstream send request
+2010/03/19 10:42:04 [error] 27399#0: *1 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9505/", host: "localhost:9510"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http next upstream, 2
+2010/03/19 10:42:04 [debug] 27399#0: *1 free rr peer 1 4
+2010/03/19 10:42:04 [debug] 27399#0: *1 finalize http upstream request: 502
+2010/03/19 10:42:04 [debug] 27399#0: *1 finalize http proxy request
+2010/03/19 10:42:04 [debug] 27399#0: *1 free rr peer 0 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 close http upstream connection: 11
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer del: 11: 1269020584259
+2010/03/19 10:42:04 [debug] 27399#0: *1 http finalize request: 502, "/?" 1
+2010/03/19 10:42:04 [debug] 27399#0: *1 http special response: 502, "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http set discard body
+2010/03/19 10:42:04 [debug] 27399#0: *1 malloc: 000000010085F200:4096
+2010/03/19 10:42:04 [debug] 27399#0: *1 HTTP/1.1 502 Bad Gateway
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:42:04 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+2010/03/19 10:42:04 [debug] 27399#0: *1 write new buf t:1 f:0 000000010085F430, pos 000000010085F430, size: 164 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 http write filter: l:0 f:0 s:164
+2010/03/19 10:42:04 [debug] 27399#0: *1 http output filter "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 copy filter: "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http ssi filter "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 saved: 0 state: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 parse: -2, looked: 0 000000010007A710-000000010007A788
+2010/03/19 10:42:04 [debug] 27399#0: *1 saved: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 saved: 0 state: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 parse: -2, looked: 0 0000000100079848-000000010007987D
+2010/03/19 10:42:04 [debug] 27399#0: *1 saved: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 ssi out: 000000010085F608 000000010007A710
+2010/03/19 10:42:04 [debug] 27399#0: *1 ssi out: 000000010085F668 0000000100079848
+2010/03/19 10:42:04 [debug] 27399#0: *1 http postpone filter "/?" 000000010085F658
+2010/03/19 10:42:04 [debug] 27399#0: *1 http chunk: 120
+2010/03/19 10:42:04 [debug] 27399#0: *1 http chunk: 53
+2010/03/19 10:42:04 [debug] 27399#0: *1 write old buf t:1 f:0 000000010085F430, pos 000000010085F430, size: 164 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 write new buf t:1 f:0 0000000000000000, pos 000000010085F738, size: 4 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 write new buf t:0 f:0 0000000000000000, pos 000000010007A710, size: 120 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000100079848, size: 53 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000100065104, size: 7 file: 0, size: 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 http write filter: l:1 f:0 s:348
+2010/03/19 10:42:04 [debug] 27399#0: *1 http write filter limit 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 writev: 348 of 348
+2010/03/19 10:42:04 [debug] 27399#0: *1 http write filter 0000000000000000
+2010/03/19 10:42:04 [debug] 27399#0: *1 copy filter: 0 "/?"
+2010/03/19 10:42:04 [debug] 27399#0: *1 http finalize request: 0, "/?" 1
+2010/03/19 10:42:04 [debug] 27399#0: *1 set http keepalive handler
+2010/03/19 10:42:04 [debug] 27399#0: *1 http close request
+2010/03/19 10:42:04 [debug] 27399#0: *1 http log handler
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 000000010081DA00, unused: 8
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 000000010085F200, unused: 2437
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer add: 8: 65000:1269020589260
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 000000010080FE00
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 0000000100803A00
+2010/03/19 10:42:04 [debug] 27399#0: *1 hc free: 0000000000000000 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 hc busy: 0000000000000000 0
+2010/03/19 10:42:04 [debug] 27399#0: *1 tcp_nodelay
+2010/03/19 10:42:04 [debug] 27399#0: *1 http empty handler
+2010/03/19 10:42:04 [debug] 27399#0: *1 http keepalive handler
+2010/03/19 10:42:04 [info] 27399#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:42:04 [debug] 27399#0: *1 close http connection: 8
+2010/03/19 10:42:04 [debug] 27399#0: *1 event timer del: 8: 1269020589260
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 0000000000000000
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 0000000000000000
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 0000000100301230, unused: 8
+2010/03/19 10:42:04 [debug] 27399#0: *1 free: 00000001003016D0, unused: 128
+2010/03/19 10:42:38 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:42:38 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:42:38 [debug] 27399#0: *3 accept: 127.0.0.1 fd:8
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer add: 8: 60000:1269020618316
+2010/03/19 10:42:38 [debug] 27399#0: *3 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 000000010080FE00:1248
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 00000001003015E0:256
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 0000000100803A00:1024
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 000000010085F200:4096
+2010/03/19 10:42:38 [debug] 27399#0: *3 http process request line
+2010/03/19 10:42:38 [debug] 27399#0: *3 recv: eof:0, avail:130, err:0
+2010/03/19 10:42:38 [debug] 27399#0: *3 recv: fd:8 130 of 1024
+2010/03/19 10:42:38 [debug] 27399#0: *3 http request line: "GET / HTTP/1.1"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http uri: "/"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http args: ""
+2010/03/19 10:42:38 [debug] 27399#0: *3 http exten: ""
+2010/03/19 10:42:38 [debug] 27399#0: *3 http process request header line
+2010/03/19 10:42:38 [debug] 27399#0: *3 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http header: "Host: localhost:9510"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http header: "Accept: */*"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http header done
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer del: 8: 1269020618316
+2010/03/19 10:42:38 [debug] 27399#0: *3 generic phase: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 test location: "/"
+2010/03/19 10:42:38 [debug] 27399#0: *3 using configuration "/"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http cl:-1 max:1048576
+2010/03/19 10:42:38 [debug] 27399#0: *3 generic phase: 2
+2010/03/19 10:42:38 [debug] 27399#0: *3 post rewrite phase: 3
+2010/03/19 10:42:38 [debug] 27399#0: *3 generic phase: 4
+2010/03/19 10:42:38 [debug] 27399#0: *3 generic phase: 5
+2010/03/19 10:42:38 [debug] 27399#0: *3 access phase: 6
+2010/03/19 10:42:38 [debug] 27399#0: *3 access phase: 7
+2010/03/19 10:42:38 [debug] 27399#0: *3 post access phase: 8
+2010/03/19 10:42:38 [debug] 27399#0: *3 http init upstream, client timer: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:42:38 [debug] 27399#0: *3 http script copy: "Host: "
+2010/03/19 10:42:38 [debug] 27399#0: *3 http script var: "127.0.0.1:9505"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http script copy: "
+"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http script copy: "Connection: close
+"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header: "Accept: */*"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http cleanup add: 0000000100860190
+2010/03/19 10:42:38 [debug] 27399#0: *3 get rr peer, try: 1
+2010/03/19 10:42:38 [debug] 27399#0: *3 socket 11
+2010/03/19 10:42:38 [debug] 27399#0: *3 connect to 127.0.0.1:9505, fd:11 #4
+2010/03/19 10:42:38 [debug] 27399#0: *3 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:42:38 [debug] 27399#0: *3 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream connect: -2
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer add: 11: 60000:1269020618316
+2010/03/19 10:42:38 [debug] 27399#0: *3 http run request: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream check client, write event:1, "/"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream request: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream send request handler
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream send request
+2010/03/19 10:42:38 [debug] 27399#0: *3 chain writer buf fl:1 s:149
+2010/03/19 10:42:38 [debug] 27399#0: *3 chain writer in: 00000001008601C8
+2010/03/19 10:42:38 [debug] 27399#0: *3 writev: 149 of 149
+2010/03/19 10:42:38 [debug] 27399#0: *3 chain writer out: 0000000000000000
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer del: 11: 1269020618316
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer add: 11: 60000:1269020618317
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream request: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream dummy handler
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream request: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream process header
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 000000010081DA00:4096
+2010/03/19 10:42:38 [debug] 27399#0: *3 malloc: 0000000100860200:4096
+2010/03/19 10:42:38 [debug] 27399#0: *3 recv: eof:0, avail:359, err:0
+2010/03/19 10:42:38 [debug] 27399#0: *3 recv: fd:11 359 of 4096
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy status 200 "200 OK"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header: "Content-Length: 246"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header: "Connection: close"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http proxy header done
+2010/03/19 10:42:38 [debug] 27399#0: *3 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:42:38 GMT
+Connection: keep-alive
+Content-Length: 246
+
+2010/03/19 10:42:38 [debug] 27399#0: *3 write new buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 http write filter: l:0 f:0 s:123
+2010/03/19 10:42:38 [debug] 27399#0: *3 http cacheable: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream process upstream
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe read upstream: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe preread: 246
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe buf free s:0 t:1 f:0 000000010081DA00, pos 000000010081DA71, size: 246 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write downstream: 1
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write busy: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write: out:0000000000000000, f:0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe read upstream: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe buf free s:0 t:1 f:0 000000010081DA00, pos 000000010081DA71, size: 246 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer: 11, old: 1269020618317, new: 1269020618325
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream request: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream process upstream
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe read upstream: 1
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe buf free s:0 t:1 f:0 000000010081DA00, pos 000000010081DA71, size: 246 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 input buf #0
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write downstream: 1
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write downstream flush in
+2010/03/19 10:42:38 [debug] 27399#0: *3 http output filter "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 copy filter: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http postpone filter "/?" 0000000100860640
+2010/03/19 10:42:38 [debug] 27399#0: *3 write old buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 write new buf t:1 f:0 000000010081DA00, pos 000000010081DA71, size: 246 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 http write filter: l:0 f:0 s:369
+2010/03/19 10:42:38 [debug] 27399#0: *3 copy filter: 0 "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 pipe write downstream done
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer: 11, old: 1269020618317, new: 1269020618425
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream exit: 0000000000000000
+2010/03/19 10:42:38 [debug] 27399#0: *3 finalize http upstream request: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 finalize http proxy request
+2010/03/19 10:42:38 [debug] 27399#0: *3 free rr peer 1 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 close http upstream connection: 11
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer del: 11: 1269020618317
+2010/03/19 10:42:38 [debug] 27399#0: *3 http upstream temp fd: -1
+2010/03/19 10:42:38 [debug] 27399#0: *3 http output filter "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 copy filter: "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http postpone filter "/?" 00007FFF5FBFF1A0
+2010/03/19 10:42:38 [debug] 27399#0: *3 write old buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 write old buf t:1 f:0 000000010081DA00, pos 000000010081DA71, size: 246 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 http write filter: l:1 f:0 s:369
+2010/03/19 10:42:38 [debug] 27399#0: *3 http write filter limit 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 writev: 369 of 369
+2010/03/19 10:42:38 [debug] 27399#0: *3 http write filter 0000000000000000
+2010/03/19 10:42:38 [debug] 27399#0: *3 copy filter: 0 "/?"
+2010/03/19 10:42:38 [debug] 27399#0: *3 http finalize request: 0, "/?" 1
+2010/03/19 10:42:38 [debug] 27399#0: *3 set http keepalive handler
+2010/03/19 10:42:38 [debug] 27399#0: *3 http close request
+2010/03/19 10:42:38 [debug] 27399#0: *3 http log handler
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 000000010081DA00
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 000000010085F200, unused: 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 0000000100860200, unused: 2629
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer add: 8: 65000:1269020623425
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 000000010080FE00
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 0000000100803A00
+2010/03/19 10:42:38 [debug] 27399#0: *3 hc free: 0000000000000000 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 hc busy: 0000000000000000 0
+2010/03/19 10:42:38 [debug] 27399#0: *3 tcp_nodelay
+2010/03/19 10:42:38 [debug] 27399#0: *3 http empty handler
+2010/03/19 10:42:38 [debug] 27399#0: *3 http keepalive handler
+2010/03/19 10:42:38 [info] 27399#0: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:42:38 [debug] 27399#0: *3 close http connection: 8
+2010/03/19 10:42:38 [debug] 27399#0: *3 event timer del: 8: 1269020623425
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 0000000000000000
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 0000000000000000
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 0000000100301230, unused: 8
+2010/03/19 10:42:38 [debug] 27399#0: *3 free: 00000001003015E0, unused: 128
+2010/03/19 10:43:04 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:43:04 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:43:04 [debug] 27399#0: *5 accept: 127.0.0.1 fd:8
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer add: 8: 60000:1269020644243
+2010/03/19 10:43:04 [debug] 27399#0: *5 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 000000010080FE00:1248
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 00000001003015E0:256
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 0000000100803A00:1024
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 000000010081DA00:4096
+2010/03/19 10:43:04 [debug] 27399#0: *5 http process request line
+2010/03/19 10:43:04 [debug] 27399#0: *5 recv: eof:0, avail:130, err:0
+2010/03/19 10:43:04 [debug] 27399#0: *5 recv: fd:8 130 of 1024
+2010/03/19 10:43:04 [debug] 27399#0: *5 http request line: "GET / HTTP/1.1"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http uri: "/"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http args: ""
+2010/03/19 10:43:04 [debug] 27399#0: *5 http exten: ""
+2010/03/19 10:43:04 [debug] 27399#0: *5 http process request header line
+2010/03/19 10:43:04 [debug] 27399#0: *5 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http header: "Host: localhost:9510"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http header: "Accept: */*"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http header done
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer del: 8: 1269020644243
+2010/03/19 10:43:04 [debug] 27399#0: *5 generic phase: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 test location: "/"
+2010/03/19 10:43:04 [debug] 27399#0: *5 using configuration "/"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http cl:-1 max:1048576
+2010/03/19 10:43:04 [debug] 27399#0: *5 generic phase: 2
+2010/03/19 10:43:04 [debug] 27399#0: *5 post rewrite phase: 3
+2010/03/19 10:43:04 [debug] 27399#0: *5 generic phase: 4
+2010/03/19 10:43:04 [debug] 27399#0: *5 generic phase: 5
+2010/03/19 10:43:04 [debug] 27399#0: *5 access phase: 6
+2010/03/19 10:43:04 [debug] 27399#0: *5 access phase: 7
+2010/03/19 10:43:04 [debug] 27399#0: *5 post access phase: 8
+2010/03/19 10:43:04 [debug] 27399#0: *5 http init upstream, client timer: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:43:04 [debug] 27399#0: *5 http script copy: "Host: "
+2010/03/19 10:43:04 [debug] 27399#0: *5 http script var: "127.0.0.1:9505"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http script copy: "
+"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http script copy: "Connection: close
+"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header: "Accept: */*"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http cleanup add: 000000010081E990
+2010/03/19 10:43:04 [debug] 27399#0: *5 get rr peer, try: 1
+2010/03/19 10:43:04 [debug] 27399#0: *5 socket 11
+2010/03/19 10:43:04 [debug] 27399#0: *5 connect to 127.0.0.1:9505, fd:11 #6
+2010/03/19 10:43:04 [debug] 27399#0: *5 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:43:04 [debug] 27399#0: *5 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream connect: -2
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer add: 11: 60000:1269020644243
+2010/03/19 10:43:04 [debug] 27399#0: *5 http run request: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream check client, write event:1, "/"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream request: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream send request handler
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream send request
+2010/03/19 10:43:04 [debug] 27399#0: *5 chain writer buf fl:1 s:149
+2010/03/19 10:43:04 [debug] 27399#0: *5 chain writer in: 000000010081E9C8
+2010/03/19 10:43:04 [debug] 27399#0: *5 writev: 149 of 149
+2010/03/19 10:43:04 [debug] 27399#0: *5 chain writer out: 0000000000000000
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer del: 11: 1269020644243
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer add: 11: 60000:1269020644244
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream request: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream dummy handler
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream request: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream process header
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 000000010085F200:4096
+2010/03/19 10:43:04 [debug] 27399#0: *5 malloc: 0000000100860200:4096
+2010/03/19 10:43:04 [debug] 27399#0: *5 recv: eof:0, avail:359, err:0
+2010/03/19 10:43:04 [debug] 27399#0: *5 recv: fd:11 359 of 4096
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy status 200 "200 OK"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header: "Content-Length: 246"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header: "Connection: close"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http proxy header done
+2010/03/19 10:43:04 [debug] 27399#0: *5 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:43:04 GMT
+Connection: keep-alive
+Content-Length: 246
+
+2010/03/19 10:43:04 [debug] 27399#0: *5 write new buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 http write filter: l:0 f:0 s:123
+2010/03/19 10:43:04 [debug] 27399#0: *5 http cacheable: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream process upstream
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe read upstream: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe preread: 246
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F271, size: 246 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write downstream: 1
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write busy: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write: out:0000000000000000, f:0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe read upstream: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F271, size: 246 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer: 11, old: 1269020644244, new: 1269020644247
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream request: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream process upstream
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe read upstream: 1
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F271, size: 246 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 input buf #0
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write downstream: 1
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write downstream flush in
+2010/03/19 10:43:04 [debug] 27399#0: *5 http output filter "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 copy filter: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http postpone filter "/?" 0000000100860640
+2010/03/19 10:43:04 [debug] 27399#0: *5 write old buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 write new buf t:1 f:0 000000010085F200, pos 000000010085F271, size: 246 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 http write filter: l:0 f:0 s:369
+2010/03/19 10:43:04 [debug] 27399#0: *5 copy filter: 0 "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 pipe write downstream done
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer: 11, old: 1269020644244, new: 1269020644348
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream exit: 0000000000000000
+2010/03/19 10:43:04 [debug] 27399#0: *5 finalize http upstream request: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 finalize http proxy request
+2010/03/19 10:43:04 [debug] 27399#0: *5 free rr peer 1 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 close http upstream connection: 11
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer del: 11: 1269020644244
+2010/03/19 10:43:04 [debug] 27399#0: *5 http upstream temp fd: -1
+2010/03/19 10:43:04 [debug] 27399#0: *5 http output filter "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 copy filter: "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http postpone filter "/?" 00007FFF5FBFF1A0
+2010/03/19 10:43:04 [debug] 27399#0: *5 write old buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 write old buf t:1 f:0 000000010085F200, pos 000000010085F271, size: 246 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 http write filter: l:1 f:0 s:369
+2010/03/19 10:43:04 [debug] 27399#0: *5 http write filter limit 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 writev: 369 of 369
+2010/03/19 10:43:04 [debug] 27399#0: *5 http write filter 0000000000000000
+2010/03/19 10:43:04 [debug] 27399#0: *5 copy filter: 0 "/?"
+2010/03/19 10:43:04 [debug] 27399#0: *5 http finalize request: 0, "/?" 1
+2010/03/19 10:43:04 [debug] 27399#0: *5 set http keepalive handler
+2010/03/19 10:43:04 [debug] 27399#0: *5 http close request
+2010/03/19 10:43:04 [debug] 27399#0: *5 http log handler
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 000000010085F200
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 000000010081DA00, unused: 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 0000000100860200, unused: 2629
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer add: 8: 65000:1269020649348
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 000000010080FE00
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 0000000100803A00
+2010/03/19 10:43:04 [debug] 27399#0: *5 hc free: 0000000000000000 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 hc busy: 0000000000000000 0
+2010/03/19 10:43:04 [debug] 27399#0: *5 tcp_nodelay
+2010/03/19 10:43:04 [debug] 27399#0: *5 http empty handler
+2010/03/19 10:43:04 [debug] 27399#0: *5 http keepalive handler
+2010/03/19 10:43:04 [info] 27399#0: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:43:04 [debug] 27399#0: *5 close http connection: 8
+2010/03/19 10:43:04 [debug] 27399#0: *5 event timer del: 8: 1269020649348
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 0000000000000000
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 0000000000000000
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 0000000100301230, unused: 8
+2010/03/19 10:43:04 [debug] 27399#0: *5 free: 00000001003015E0, unused: 128
+2010/03/19 10:47:30 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:47:30 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:47:30 [debug] 27399#0: *7 accept: 127.0.0.1 fd:8
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer add: 8: 60000:1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 000000010080FE00:1248
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 00000001003015E0:256
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 0000000100803A00:1024
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 000000010081DA00:4096
+2010/03/19 10:47:30 [debug] 27399#0: *7 http process request line
+2010/03/19 10:47:30 [debug] 27399#0: *7 recv: eof:0, avail:131, err:0
+2010/03/19 10:47:30 [debug] 27399#0: *7 recv: fd:8 131 of 1024
+2010/03/19 10:47:30 [debug] 27399#0: *7 http request line: "HEAD / HTTP/1.1"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http uri: "/"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http args: ""
+2010/03/19 10:47:30 [debug] 27399#0: *7 http exten: ""
+2010/03/19 10:47:30 [debug] 27399#0: *7 http process request header line
+2010/03/19 10:47:30 [debug] 27399#0: *7 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http header: "Host: localhost:9510"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http header: "Accept: */*"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http header done
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer del: 8: 1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 generic phase: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 test location: "/"
+2010/03/19 10:47:30 [debug] 27399#0: *7 using configuration "/"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http cl:-1 max:1048576
+2010/03/19 10:47:30 [debug] 27399#0: *7 generic phase: 2
+2010/03/19 10:47:30 [debug] 27399#0: *7 post rewrite phase: 3
+2010/03/19 10:47:30 [debug] 27399#0: *7 generic phase: 4
+2010/03/19 10:47:30 [debug] 27399#0: *7 generic phase: 5
+2010/03/19 10:47:30 [debug] 27399#0: *7 access phase: 6
+2010/03/19 10:47:30 [debug] 27399#0: *7 access phase: 7
+2010/03/19 10:47:30 [debug] 27399#0: *7 post access phase: 8
+2010/03/19 10:47:30 [debug] 27399#0: *7 http init upstream, client timer: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:47:30 [debug] 27399#0: *7 http script copy: "Host: "
+2010/03/19 10:47:30 [debug] 27399#0: *7 http script var: "127.0.0.1:9505"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http script copy: "
+"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http script copy: "Connection: close
+"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header: "Accept: */*"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header:
+"HEAD / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http cleanup add: 000000010081E990
+2010/03/19 10:47:30 [debug] 27399#0: *7 get rr peer, try: 1
+2010/03/19 10:47:30 [debug] 27399#0: *7 socket 11
+2010/03/19 10:47:30 [debug] 27399#0: *7 connect to 127.0.0.1:9505, fd:11 #8
+2010/03/19 10:47:30 [debug] 27399#0: *7 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:47:30 [debug] 27399#0: *7 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream connect: -2
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer add: 11: 60000:1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 http run request: "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream check client, write event:1, "/"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream request: "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream send request handler
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream send request
+2010/03/19 10:47:30 [debug] 27399#0: *7 chain writer buf fl:1 s:150
+2010/03/19 10:47:30 [debug] 27399#0: *7 chain writer in: 000000010081E9C8
+2010/03/19 10:47:30 [debug] 27399#0: *7 writev: 150 of 150
+2010/03/19 10:47:30 [debug] 27399#0: *7 chain writer out: 0000000000000000
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer del: 11: 1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer add: 11: 60000:1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream request: "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream dummy handler
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream request: "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http upstream process header
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 000000010085F200:4096
+2010/03/19 10:47:30 [debug] 27399#0: *7 malloc: 0000000100860200:4096
+2010/03/19 10:47:30 [debug] 27399#0: *7 recv: eof:0, avail:359, err:0
+2010/03/19 10:47:30 [debug] 27399#0: *7 recv: fd:11 359 of 4096
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy status 200 "200 OK"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header: "Content-Length: 246"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header: "Connection: close"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http proxy header done
+2010/03/19 10:47:30 [debug] 27399#0: *7 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:47:30 GMT
+Connection: keep-alive
+Content-Length: 246
+
+2010/03/19 10:47:30 [debug] 27399#0: *7 write new buf t:1 f:0 0000000100860468, pos 0000000100860468, size: 123 file: 0, size: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 http write filter: l:1 f:0 s:123
+2010/03/19 10:47:30 [debug] 27399#0: *7 http write filter limit 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 writev: 123 of 123
+2010/03/19 10:47:30 [debug] 27399#0: *7 http write filter 0000000000000000
+2010/03/19 10:47:30 [debug] 27399#0: *7 finalize http upstream request: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 finalize http proxy request
+2010/03/19 10:47:30 [debug] 27399#0: *7 free rr peer 1 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 close http upstream connection: 11
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer del: 11: 1269020910553
+2010/03/19 10:47:30 [debug] 27399#0: *7 http output filter "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 copy filter: "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http postpone filter "/?" 00007FFF5FBFF220
+2010/03/19 10:47:30 [debug] 27399#0: *7 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 http write filter: l:1 f:0 s:0
+2010/03/19 10:47:30 [debug] 27399#0: *7 copy filter: 0 "/?"
+2010/03/19 10:47:30 [debug] 27399#0: *7 http finalize request: 0, "/?" 1
+2010/03/19 10:47:30 [debug] 27399#0: *7 set http keepalive handler
+2010/03/19 10:47:30 [debug] 27399#0: *7 http close request
+2010/03/19 10:47:30 [debug] 27399#0: *7 http log handler
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 000000010085F200
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 000000010081DA00, unused: 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 0000000100860200, unused: 3020
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer add: 8: 65000:1269020915556
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 000000010080FE00
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 0000000100803A00
+2010/03/19 10:47:30 [debug] 27399#0: *7 hc free: 0000000000000000 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 hc busy: 0000000000000000 0
+2010/03/19 10:47:30 [debug] 27399#0: *7 tcp_nodelay
+2010/03/19 10:47:30 [debug] 27399#0: *7 http empty handler
+2010/03/19 10:47:30 [debug] 27399#0: *7 http keepalive handler
+2010/03/19 10:47:30 [info] 27399#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:47:30 [debug] 27399#0: *7 close http connection: 8
+2010/03/19 10:47:30 [debug] 27399#0: *7 event timer del: 8: 1269020915556
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 0000000000000000
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 0000000000000000
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 0000000100301230, unused: 8
+2010/03/19 10:47:30 [debug] 27399#0: *7 free: 00000001003015E0, unused: 128
+2010/03/19 10:49:24 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:49:24 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:49:24 [debug] 27399#0: *9 accept: 127.0.0.1 fd:8
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 8: 60000:1269021024535
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 000000010080FE00:1248
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 00000001003015E0:256
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 0000000100803A00:1024
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 000000010081DA00:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 http process request line
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: eof:0, avail:130, err:0
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: fd:8 130 of 1024
+2010/03/19 10:49:24 [debug] 27399#0: *9 http request line: "GET / HTTP/1.1"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http uri: "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http args: ""
+2010/03/19 10:49:24 [debug] 27399#0: *9 http exten: ""
+2010/03/19 10:49:24 [debug] 27399#0: *9 http process request header line
+2010/03/19 10:49:24 [debug] 27399#0: *9 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http header: "Host: localhost:9510"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http header: "Accept: */*"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http header done
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 8: 1269021024535
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 test location: "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 using configuration "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cl:-1 max:1048576
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 2
+2010/03/19 10:49:24 [debug] 27399#0: *9 post rewrite phase: 3
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 4
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 5
+2010/03/19 10:49:24 [debug] 27399#0: *9 access phase: 6
+2010/03/19 10:49:24 [debug] 27399#0: *9 access phase: 7
+2010/03/19 10:49:24 [debug] 27399#0: *9 post access phase: 8
+2010/03/19 10:49:24 [debug] 27399#0: *9 http init upstream, client timer: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "Host: "
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script var: "127.0.0.1:9505"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "Connection: close
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Accept: */*"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cleanup add: 000000010081E990
+2010/03/19 10:49:24 [debug] 27399#0: *9 get rr peer, try: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 socket 11
+2010/03/19 10:49:24 [debug] 27399#0: *9 connect to 127.0.0.1:9505, fd:11 #10
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream connect: -2
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 11: 60000:1269021024535
+2010/03/19 10:49:24 [debug] 27399#0: *9 http run request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream check client, write event:1, "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream send request handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream send request
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer buf fl:1 s:149
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer in: 000000010081E9C8
+2010/03/19 10:49:24 [debug] 27399#0: *9 writev: 149 of 149
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer out: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 11: 1269021024535
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 11: 60000:1269021024536
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream dummy handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process header
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 000000010085F200:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 0000000100860200:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: eof:0, avail:138, err:0
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: fd:11 384 of 4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy status 200 "200 OK"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Content-Type: text/html"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Content-Length: 246"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Connection: close"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header done
+2010/03/19 10:49:24 [debug] 27399#0: *9 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:49:24 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter: l:0 f:0 s:155
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cacheable: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process upstream
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe preread: 246
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write busy: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write: out:0000000000000000, f:0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer: 11, old: 1269021024536, new: 1269021024540
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process upstream
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 input buf #0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream flush in
+2010/03/19 10:49:24 [debug] 27399#0: *9 http output filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http ssi filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0 state: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 parse: 0, looked: 0 000000010085F28A-000000010085F2BD
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi block
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0 state: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 parse: 0, looked: 0 000000010085F2DB-000000010085F300
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi endblock
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0 state: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 parse: 0, looked: 0 000000010085F312-000000010085F31B
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi flush
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi out: 0000000100860A18 000000010085F28A
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi out: 0000000100860C50 000000010085F312
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/?" 0000000100860A68
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 51
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 9
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter: l:0 f:0 s:221
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi include: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 0000000100861200:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 http subrequest "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0 state: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 parse: -2, looked: 0 000000010085F362-000000010085F380
+2010/03/19 10:49:24 [debug] 27399#0: *9 saved: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi out: 0000000100860F08 000000010085F362
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/?" 0000000100860F58
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: 0 "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream done
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer: 11, old: 1269021024536, new: 1269021024640
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream exit: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 finalize http upstream request: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 finalize http proxy request
+2010/03/19 10:49:24 [debug] 27399#0: *9 free rr peer 1 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 close http upstream connection: 11
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 11: 1269021024536
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream temp fd: -1
+2010/03/19 10:49:24 [debug] 27399#0: *9 http output filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http ssi filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 ssi out: 0000000100860FF0 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/?" 0000000100861040
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: 0 "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http finalize request: 0, "/?" 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 8: 60000:1269021024640
+2010/03/19 10:49:24 [debug] 27399#0: *9 http posted request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 test location: "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 test location: "remote"
+2010/03/19 10:49:24 [debug] 27399#0: *9 using configuration "/remote"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cl:-1 max:1048576
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 2
+2010/03/19 10:49:24 [debug] 27399#0: *9 post rewrite phase: 3
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 4
+2010/03/19 10:49:24 [debug] 27399#0: *9 generic phase: 5
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "http://"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script var: "127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "/"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http init upstream, client timer: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "Host: "
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script var: "127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http script copy: "Connection: close
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Accept: */*"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9501
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cleanup add: 0000000100861F78
+2010/03/19 10:49:24 [debug] 27399#0: *9 name was resolved to 127.0.0.1
+2010/03/19 10:49:24 [debug] 27399#0: *9 get rr peer, try: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 socket 11
+2010/03/19 10:49:24 [debug] 27399#0: *9 connect to 127.0.0.1:9501, fd:11 #11
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream connect: -2
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 11: 60000:1269021024640
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream send request handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream send request
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer buf fl:1 s:149
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer in: 0000000100862060
+2010/03/19 10:49:24 [debug] 27399#0: *9 writev: 149 of 149
+2010/03/19 10:49:24 [debug] 27399#0: *9 chain writer out: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 11: 1269021024640
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 11: 60000:1269021024641
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream dummy handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process header
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 0000000100862200:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: eof:0, avail:36, err:0
+2010/03/19 10:49:24 [debug] 27399#0: *9 recv: fd:11 125 of 4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy status 200 "200 OK"
+2010/03/19 10:49:24 [debug] 27399#0: *9 malloc: 0000000100863200:4096
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Connection: close"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Date: Fri, 19 Mar 2010 17:49:24 GMT"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Content-Type: text/html"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header: "Content-Length: 6"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http proxy header done
+2010/03/19 10:49:24 [debug] 27399#0: *9 http cacheable: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process upstream
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe preread: 6
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write busy: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write: out:0000000000000000, f:0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer: 11, old: 1269021024641, new: 1269021024642
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 8: 1269021024640
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream process upstream
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe read upstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe buf free s:0 t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 input buf #0
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream flush in
+2010/03/19 10:49:24 [debug] 27399#0: *9 http output filter "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/remote/?host=127.0.0.1:9501" 0000000100863400
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 6
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 0000000000000000, pos 00000001008634D0, size: 3 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter: l:0 f:0 s:232
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: 0 "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 pipe write downstream done
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer: 11, old: 1269021024641, new: 1269021024642
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream exit: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 finalize http upstream request: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 finalize http proxy request
+2010/03/19 10:49:24 [debug] 27399#0: *9 free rr peer 1 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 close http upstream connection: 11
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 11: 1269021024641
+2010/03/19 10:49:24 [debug] 27399#0: *9 http upstream temp fd: -1
+2010/03/19 10:49:24 [debug] 27399#0: *9 http output filter "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/remote/?host=127.0.0.1:9501" 00007FFF5FBFF1A0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000000000000, pos 00000001008634D0, size: 3 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter: l:0 f:0 s:232
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: 0 "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http finalize request: 0, "/remote/?host=127.0.0.1:9501" 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 http wake parent request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http posted request: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http writer handler: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http output filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http ssi filter "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter "/?" 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 http postpone filter output "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 30
+2010/03/19 10:49:24 [debug] 27399#0: *9 http chunk: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000000000000, pos 00000001008634D0, size: 3 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:1 f:0 0000000100862200, pos 0000000100862277, size: 6 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write old buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 0000000000000000, pos 0000000100863658, size: 4 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:1 f:0 000000010085F200, pos 000000010085F362, size: 30 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 write new buf t:0 f:0 0000000000000000, pos 0000000100065104, size: 7 file: 0, size: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter: l:1 f:0 s:273
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter limit 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 writev: 273 of 273
+2010/03/19 10:49:24 [debug] 27399#0: *9 http write filter 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 copy filter: 0 "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http writer output filter: 0, "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http writer done: "/?"
+2010/03/19 10:49:24 [debug] 27399#0: *9 http finalize request: 0, "/?" 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 set http keepalive handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http close request
+2010/03/19 10:49:24 [debug] 27399#0: *9 http log handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100862200
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 000000010085F200
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 000000010081DA00, unused: 1
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100860200, unused: 2
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100861200, unused: 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100863200, unused: 2661
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer add: 8: 65000:1269021029642
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 000000010080FE00
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100803A00
+2010/03/19 10:49:24 [debug] 27399#0: *9 hc free: 0000000000000000 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 hc busy: 0000000000000000 0
+2010/03/19 10:49:24 [debug] 27399#0: *9 tcp_nodelay
+2010/03/19 10:49:24 [debug] 27399#0: *9 http empty handler
+2010/03/19 10:49:24 [debug] 27399#0: *9 http keepalive handler
+2010/03/19 10:49:24 [info] 27399#0: *9 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:49:24 [debug] 27399#0: *9 close http connection: 8
+2010/03/19 10:49:24 [debug] 27399#0: *9 event timer del: 8: 1269021029642
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000000000000
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 0000000100301230, unused: 8
+2010/03/19 10:49:24 [debug] 27399#0: *9 free: 00000001003015E0, unused: 128
+2010/03/19 10:53:01 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 10:53:01 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 10:53:01 [debug] 27399#0: *12 accept: 127.0.0.1 fd:8
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 8: 60000:1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 000000010080FE00:1248
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 00000001003015E0:256
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 0000000100803A00:1024
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 000000010081DA00:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 http process request line
+2010/03/19 10:53:01 [debug] 27399#0: *12 recv: eof:0, avail:130, err:0
+2010/03/19 10:53:01 [debug] 27399#0: *12 recv: fd:8 130 of 1024
+2010/03/19 10:53:01 [debug] 27399#0: *12 http request line: "GET / HTTP/1.1"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http uri: "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http args: ""
+2010/03/19 10:53:01 [debug] 27399#0: *12 http exten: ""
+2010/03/19 10:53:01 [debug] 27399#0: *12 http process request header line
+2010/03/19 10:53:01 [debug] 27399#0: *12 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http header: "Host: localhost:9510"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http header: "Accept: */*"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http header done
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 8: 1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 test location: "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 using configuration "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http cl:-1 max:1048576
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 2
+2010/03/19 10:53:01 [debug] 27399#0: *12 post rewrite phase: 3
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 4
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 5
+2010/03/19 10:53:01 [debug] 27399#0: *12 access phase: 6
+2010/03/19 10:53:01 [debug] 27399#0: *12 access phase: 7
+2010/03/19 10:53:01 [debug] 27399#0: *12 post access phase: 8
+2010/03/19 10:53:01 [debug] 27399#0: *12 http init upstream, client timer: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "Host: "
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script var: "127.0.0.1:9505"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "Connection: close
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Accept: */*"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http cleanup add: 000000010081E990
+2010/03/19 10:53:01 [debug] 27399#0: *12 get rr peer, try: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 socket 11
+2010/03/19 10:53:01 [debug] 27399#0: *12 connect to 127.0.0.1:9505, fd:11 #13
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream connect: -2
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 11: 60000:1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 http run request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream check client, write event:1, "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream send request handler
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream send request
+2010/03/19 10:53:01 [debug] 27399#0: *12 chain writer buf fl:1 s:149
+2010/03/19 10:53:01 [debug] 27399#0: *12 chain writer in: 000000010081E9C8
+2010/03/19 10:53:01 [debug] 27399#0: *12 writev: 149 of 149
+2010/03/19 10:53:01 [debug] 27399#0: *12 chain writer out: 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 11: 1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 11: 60000:1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream dummy handler
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream process header
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 000000010085F200:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 0000000100860200:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 recv: eof:0, avail:384, err:0
+2010/03/19 10:53:01 [debug] 27399#0: *12 recv: fd:11 384 of 4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy status 200 "200 OK"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Content-Type: text/html"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Content-Length: 246"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Connection: close"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header done
+2010/03/19 10:53:01 [debug] 27399#0: *12 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 17:53:01 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter: l:0 f:0 s:155
+2010/03/19 10:53:01 [debug] 27399#0: *12 http cacheable: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream process upstream
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe read upstream: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe preread: 246
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write downstream: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write busy: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write: out:0000000000000000, f:0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe read upstream: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer: 11, old: 1269021241742, new: 1269021241743
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream process upstream
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe read upstream: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 246 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 input buf #0
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write downstream: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write downstream flush in
+2010/03/19 10:53:01 [debug] 27399#0: *12 http output filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http ssi filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0 state: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 parse: 0, looked: 0 000000010085F28A-000000010085F2BD
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi block
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0 state: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 parse: 0, looked: 0 000000010085F2DB-000000010085F300
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi endblock
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0 state: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 parse: 0, looked: 0 000000010085F312-000000010085F31B
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi flush
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi out: 0000000100860A18 000000010085F28A
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi out: 0000000100860C50 000000010085F312
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter "/?" 0000000100860A68
+2010/03/19 10:53:01 [debug] 27399#0: *12 http chunk: 51
+2010/03/19 10:53:01 [debug] 27399#0: *12 http chunk: 9
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter: l:0 f:0 s:221
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi include: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 0000000100861200:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 http subrequest "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0 state: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 parse: -2, looked: 0 000000010085F362-000000010085F380
+2010/03/19 10:53:01 [debug] 27399#0: *12 saved: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi out: 0000000100860F08 000000010085F362
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter "/?" 0000000100860F58
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: 0 "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 pipe write downstream done
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer: 11, old: 1269021241742, new: 1269021241843
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream exit: 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 finalize http upstream request: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 finalize http proxy request
+2010/03/19 10:53:01 [debug] 27399#0: *12 free rr peer 1 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 close http upstream connection: 11
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 11: 1269021241742
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream temp fd: -1
+2010/03/19 10:53:01 [debug] 27399#0: *12 http output filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http ssi filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi out: 0000000100860FF0 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter "/?" 0000000100861040
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: 0 "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http finalize request: 0, "/?" 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 8: 60000:1269021241843
+2010/03/19 10:53:01 [debug] 27399#0: *12 http posted request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 test location: "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 test location: "remote"
+2010/03/19 10:53:01 [debug] 27399#0: *12 using configuration "/remote"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http cl:-1 max:1048576
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 2
+2010/03/19 10:53:01 [debug] 27399#0: *12 post rewrite phase: 3
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 4
+2010/03/19 10:53:01 [debug] 27399#0: *12 generic phase: 5
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "http://"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script var: "127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "/"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http init upstream, client timer: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "Host: "
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script var: "127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http script copy: "Connection: close
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header: "Accept: */*"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9501
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http cleanup add: 0000000100861F78
+2010/03/19 10:53:01 [debug] 27399#0: *12 name was resolved to 127.0.0.1
+2010/03/19 10:53:01 [debug] 27399#0: *12 get rr peer, try: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 socket 11
+2010/03/19 10:53:01 [debug] 27399#0: *12 connect to 127.0.0.1:9501, fd:11 #14
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream connect: -2
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 11: 60000:1269021241843
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream request: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http upstream process header
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 0000000100862200:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 recv: eof:1, avail:0, err:61
+2010/03/19 10:53:01 [error] 27399#0: *12 kevent() reported about an closed connection (61: Connection refused) while reading response header from upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", subrequest: "/remote/", upstream: "http://127.0.0.1:9501/", host: "localhost:9510"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http next upstream, 2
+2010/03/19 10:53:01 [debug] 27399#0: *12 free rr peer 1 4
+2010/03/19 10:53:01 [debug] 27399#0: *12 finalize http upstream request: 502
+2010/03/19 10:53:01 [debug] 27399#0: *12 finalize http proxy request
+2010/03/19 10:53:01 [debug] 27399#0: *12 free rr peer 0 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 close http upstream connection: 11
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 11: 1269021241843
+2010/03/19 10:53:01 [debug] 27399#0: *12 http finalize request: 502, "/remote/?host=127.0.0.1:9501" 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 ssi stub output: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http output filter "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 malloc: 0000000100863200:4096
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter "/remote/?host=127.0.0.1:9501" 0000000100860BB8
+2010/03/19 10:53:01 [debug] 27399#0: *12 http chunk: 37
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 0000000000000000, pos 00000001008632D0, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 0000000100860B90, pos 0000000100860B90, size: 37 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter: l:0 f:0 s:264
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: 0 "/remote/?host=127.0.0.1:9501"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http wake parent request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http posted request: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http writer handler: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http output filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http ssi filter "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter "/?" 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 http postpone filter output "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http chunk: 30
+2010/03/19 10:53:01 [debug] 27399#0: *12 http chunk: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000000000000, pos 0000000100860D20, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 51 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 000000010085F200, pos 000000010085F312, size: 9 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000000000000, pos 00000001008632D0, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:1 f:0 0000000100860B90, pos 0000000100860B90, size: 37 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 0000000000000000, pos 00000001008633E8, size: 4 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:1 f:0 000000010085F200, pos 000000010085F362, size: 30 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 write new buf t:0 f:0 0000000000000000, pos 0000000100065104, size: 7 file: 0, size: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter: l:1 f:0 s:305
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter limit 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 writev: 305 of 305
+2010/03/19 10:53:01 [debug] 27399#0: *12 http write filter 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 copy filter: 0 "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http writer output filter: 0, "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http writer done: "/?"
+2010/03/19 10:53:01 [debug] 27399#0: *12 http finalize request: 0, "/?" 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 8: 1269021241843
+2010/03/19 10:53:01 [debug] 27399#0: *12 set http keepalive handler
+2010/03/19 10:53:01 [debug] 27399#0: *12 http close request
+2010/03/19 10:53:01 [debug] 27399#0: *12 http log handler
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100862200
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 000000010085F200
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 000000010081DA00, unused: 1
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100860200, unused: 8
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100861200, unused: 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100863200, unused: 3285
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer add: 8: 65000:1269021246844
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 000000010080FE00
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100803A00
+2010/03/19 10:53:01 [debug] 27399#0: *12 hc free: 0000000000000000 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 hc busy: 0000000000000000 0
+2010/03/19 10:53:01 [debug] 27399#0: *12 tcp_nodelay
+2010/03/19 10:53:01 [debug] 27399#0: *12 http empty handler
+2010/03/19 10:53:01 [debug] 27399#0: *12 http keepalive handler
+2010/03/19 10:53:01 [info] 27399#0: *12 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 10:53:01 [debug] 27399#0: *12 close http connection: 8
+2010/03/19 10:53:01 [debug] 27399#0: *12 event timer del: 8: 1269021246844
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000000000000
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 0000000100301230, unused: 8
+2010/03/19 10:53:01 [debug] 27399#0: *12 free: 00000001003015E0, unused: 128
+2010/03/19 11:16:35 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 11:16:35 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 11:16:35 [debug] 27399#0: *15 accept: 127.0.0.1 fd:8
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer add: 8: 60000:1269022655244
+2010/03/19 11:16:35 [debug] 27399#0: *15 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 000000010080FE00:1248
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 00000001003015E0:256
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 0000000100803A00:1024
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 000000010081DA00:4096
+2010/03/19 11:16:35 [debug] 27399#0: *15 http process request line
+2010/03/19 11:16:35 [debug] 27399#0: *15 recv: eof:0, avail:130, err:0
+2010/03/19 11:16:35 [debug] 27399#0: *15 recv: fd:8 130 of 1024
+2010/03/19 11:16:35 [debug] 27399#0: *15 http request line: "GET / HTTP/1.1"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http uri: "/"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http args: ""
+2010/03/19 11:16:35 [debug] 27399#0: *15 http exten: ""
+2010/03/19 11:16:35 [debug] 27399#0: *15 http process request header line
+2010/03/19 11:16:35 [debug] 27399#0: *15 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http header: "Host: localhost:9510"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http header: "Accept: */*"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http header done
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer del: 8: 1269022655244
+2010/03/19 11:16:35 [debug] 27399#0: *15 generic phase: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 test location: "/"
+2010/03/19 11:16:35 [debug] 27399#0: *15 using configuration "/"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http cl:-1 max:1048576
+2010/03/19 11:16:35 [debug] 27399#0: *15 generic phase: 2
+2010/03/19 11:16:35 [debug] 27399#0: *15 post rewrite phase: 3
+2010/03/19 11:16:35 [debug] 27399#0: *15 generic phase: 4
+2010/03/19 11:16:35 [debug] 27399#0: *15 generic phase: 5
+2010/03/19 11:16:35 [debug] 27399#0: *15 access phase: 6
+2010/03/19 11:16:35 [debug] 27399#0: *15 access phase: 7
+2010/03/19 11:16:35 [debug] 27399#0: *15 post access phase: 8
+2010/03/19 11:16:35 [debug] 27399#0: *15 http init upstream, client timer: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 11:16:35 [debug] 27399#0: *15 http script copy: "Host: "
+2010/03/19 11:16:35 [debug] 27399#0: *15 http script var: "127.0.0.1:9505"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http script copy: "
+"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http script copy: "Connection: close
+"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http proxy header: "Accept: */*"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http cleanup add: 000000010081E990
+2010/03/19 11:16:35 [debug] 27399#0: *15 get rr peer, try: 1
+2010/03/19 11:16:35 [debug] 27399#0: *15 socket 11
+2010/03/19 11:16:35 [debug] 27399#0: *15 connect to 127.0.0.1:9505, fd:11 #16
+2010/03/19 11:16:35 [debug] 27399#0: *15 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 11:16:35 [debug] 27399#0: *15 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream connect: -2
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer add: 11: 60000:1269022655244
+2010/03/19 11:16:35 [debug] 27399#0: *15 http run request: "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream check client, write event:1, "/"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream request: "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream send request handler
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream send request
+2010/03/19 11:16:35 [debug] 27399#0: *15 chain writer buf fl:1 s:149
+2010/03/19 11:16:35 [debug] 27399#0: *15 chain writer in: 000000010081E9C8
+2010/03/19 11:16:35 [debug] 27399#0: *15 writev: 149 of 149
+2010/03/19 11:16:35 [debug] 27399#0: *15 chain writer out: 0000000000000000
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer del: 11: 1269022655244
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer add: 11: 60000:1269022655245
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream request: "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream dummy handler
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream request: "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http upstream process header
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 000000010085F200:4096
+2010/03/19 11:16:35 [debug] 27399#0: *15 malloc: 0000000100860200:4096
+2010/03/19 11:16:35 [debug] 27399#0: *15 recv: eof:1, avail:0, err:0
+2010/03/19 11:16:35 [error] 27399#0: *15 upstream prematurely closed connection while reading response header from upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:9505/", host: "localhost:9510"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http next upstream, 2
+2010/03/19 11:16:35 [debug] 27399#0: *15 free rr peer 1 4
+2010/03/19 11:16:35 [debug] 27399#0: *15 finalize http upstream request: 502
+2010/03/19 11:16:35 [debug] 27399#0: *15 finalize http proxy request
+2010/03/19 11:16:35 [debug] 27399#0: *15 free rr peer 0 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 close http upstream connection: 11
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer del: 11: 1269022655245
+2010/03/19 11:16:35 [debug] 27399#0: *15 http finalize request: 502, "/?" 1
+2010/03/19 11:16:35 [debug] 27399#0: *15 http special response: 502, "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http set discard body
+2010/03/19 11:16:35 [debug] 27399#0: *15 HTTP/1.1 502 Bad Gateway
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 18:16:35 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+2010/03/19 11:16:35 [debug] 27399#0: *15 write new buf t:1 f:0 00000001008605B0, pos 00000001008605B0, size: 164 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 http write filter: l:0 f:0 s:164
+2010/03/19 11:16:35 [debug] 27399#0: *15 http output filter "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 copy filter: "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http ssi filter "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 saved: 0 state: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 parse: -2, looked: 0 000000010007A710-000000010007A788
+2010/03/19 11:16:35 [debug] 27399#0: *15 saved: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 saved: 0 state: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 parse: -2, looked: 0 0000000100079848-000000010007987D
+2010/03/19 11:16:35 [debug] 27399#0: *15 saved: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 ssi out: 00000001008607A8 000000010007A710
+2010/03/19 11:16:35 [debug] 27399#0: *15 ssi out: 0000000100860808 0000000100079848
+2010/03/19 11:16:35 [debug] 27399#0: *15 http postpone filter "/?" 00000001008607F8
+2010/03/19 11:16:35 [debug] 27399#0: *15 http chunk: 120
+2010/03/19 11:16:35 [debug] 27399#0: *15 http chunk: 53
+2010/03/19 11:16:35 [debug] 27399#0: *15 write old buf t:1 f:0 00000001008605B0, pos 00000001008605B0, size: 164 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 write new buf t:1 f:0 0000000000000000, pos 00000001008608D8, size: 4 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 write new buf t:0 f:0 0000000000000000, pos 000000010007A710, size: 120 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 write new buf t:0 f:0 0000000000000000, pos 0000000100079848, size: 53 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 write new buf t:0 f:0 0000000000000000, pos 0000000100065104, size: 7 file: 0, size: 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 http write filter: l:1 f:0 s:348
+2010/03/19 11:16:35 [debug] 27399#0: *15 http write filter limit 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 writev: 348 of 348
+2010/03/19 11:16:35 [debug] 27399#0: *15 http write filter 0000000000000000
+2010/03/19 11:16:35 [debug] 27399#0: *15 copy filter: 0 "/?"
+2010/03/19 11:16:35 [debug] 27399#0: *15 http finalize request: 0, "/?" 1
+2010/03/19 11:16:35 [debug] 27399#0: *15 set http keepalive handler
+2010/03/19 11:16:35 [debug] 27399#0: *15 http close request
+2010/03/19 11:16:35 [debug] 27399#0: *15 http log handler
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 000000010085F200
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 000000010081DA00, unused: 15
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 0000000100860200, unused: 2021
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer add: 8: 65000:1269022660249
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 000000010080FE00
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 0000000100803A00
+2010/03/19 11:16:35 [debug] 27399#0: *15 hc free: 0000000000000000 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 hc busy: 0000000000000000 0
+2010/03/19 11:16:35 [debug] 27399#0: *15 tcp_nodelay
+2010/03/19 11:16:35 [debug] 27399#0: *15 http empty handler
+2010/03/19 11:16:35 [debug] 27399#0: *15 http keepalive handler
+2010/03/19 11:16:35 [info] 27399#0: *15 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 11:16:35 [debug] 27399#0: *15 close http connection: 8
+2010/03/19 11:16:35 [debug] 27399#0: *15 event timer del: 8: 1269022660249
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 0000000000000000
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 0000000000000000
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 0000000100301230, unused: 8
+2010/03/19 11:16:35 [debug] 27399#0: *15 free: 00000001003015E0, unused: 128
+2010/03/19 11:17:55 [debug] 27399#0: accept on 0.0.0.0:9510, ready: 1
+2010/03/19 11:17:55 [debug] 27399#0: malloc: 0000000100301230:256
+2010/03/19 11:17:55 [debug] 27399#0: *17 accept: 127.0.0.1 fd:8
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer add: 8: 60000:1269022735883
+2010/03/19 11:17:55 [debug] 27399#0: *17 kevent set event: 8: ft:-1 fl:0025
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 000000010080FE00:1248
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 00000001003015E0:256
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 0000000100803A00:1024
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 000000010081DA00:4096
+2010/03/19 11:17:55 [debug] 27399#0: *17 http process request line
+2010/03/19 11:17:55 [debug] 27399#0: *17 recv: eof:0, avail:130, err:0
+2010/03/19 11:17:55 [debug] 27399#0: *17 recv: fd:8 130 of 1024
+2010/03/19 11:17:55 [debug] 27399#0: *17 http request line: "GET / HTTP/1.1"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http uri: "/"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http args: ""
+2010/03/19 11:17:55 [debug] 27399#0: *17 http exten: ""
+2010/03/19 11:17:55 [debug] 27399#0: *17 http process request header line
+2010/03/19 11:17:55 [debug] 27399#0: *17 http header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http header: "Host: localhost:9510"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http header: "Accept: */*"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http header done
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer del: 8: 1269022735883
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 test location: "/"
+2010/03/19 11:17:55 [debug] 27399#0: *17 using configuration "/"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http cl:-1 max:1048576
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 2
+2010/03/19 11:17:55 [debug] 27399#0: *17 post rewrite phase: 3
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 4
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 5
+2010/03/19 11:17:55 [debug] 27399#0: *17 access phase: 6
+2010/03/19 11:17:55 [debug] 27399#0: *17 access phase: 7
+2010/03/19 11:17:55 [debug] 27399#0: *17 post access phase: 8
+2010/03/19 11:17:55 [debug] 27399#0: *17 http init upstream, client timer: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 kevent set event: 8: ft:-2 fl:0025
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script copy: "Host: "
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script var: "127.0.0.1:9505"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script copy: "
+"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script copy: "Connection: close
+"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "Accept: */*"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header:
+"GET / HTTP/1.0
+Host: 127.0.0.1:9505
+Connection: close
+User-Agent: curl/7.19.7 (i386-apple-darwin10.2.0) libcurl/7.19.7 zlib/1.2.3
+Accept: */*
+
+"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http cleanup add: 000000010081E990
+2010/03/19 11:17:55 [debug] 27399#0: *17 get rr peer, try: 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 socket 11
+2010/03/19 11:17:55 [debug] 27399#0: *17 connect to 127.0.0.1:9505, fd:11 #18
+2010/03/19 11:17:55 [debug] 27399#0: *17 kevent set event: 11: ft:-1 fl:0025
+2010/03/19 11:17:55 [debug] 27399#0: *17 kevent set event: 11: ft:-2 fl:0025
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream connect: -2
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer add: 11: 60000:1269022735883
+2010/03/19 11:17:55 [debug] 27399#0: *17 http run request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream check client, write event:1, "/"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream send request handler
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream send request
+2010/03/19 11:17:55 [debug] 27399#0: *17 chain writer buf fl:1 s:149
+2010/03/19 11:17:55 [debug] 27399#0: *17 chain writer in: 000000010081E9C8
+2010/03/19 11:17:55 [debug] 27399#0: *17 writev: 149 of 149
+2010/03/19 11:17:55 [debug] 27399#0: *17 chain writer out: 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer del: 11: 1269022735883
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer add: 11: 60000:1269022735884
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream dummy handler
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream process header
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 000000010085F200:4096
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 0000000100860200:4096
+2010/03/19 11:17:55 [debug] 27399#0: *17 recv: eof:0, avail:604, err:0
+2010/03/19 11:17:55 [debug] 27399#0: *17 recv: fd:11 604 of 4096
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy status 200 "200 OK"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "Content-Type: text/html"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "Content-Length: 466"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "Connection: close"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header: "Server: thin 1.2.5 codename This Is Not A Web Server"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http proxy header done
+2010/03/19 11:17:55 [debug] 27399#0: *17 HTTP/1.1 200 OK
+Server: nginx/0.7.64
+Date: Fri, 19 Mar 2010 18:17:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter: l:0 f:0 s:155
+2010/03/19 11:17:55 [debug] 27399#0: *17 http cacheable: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream process upstream
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe read upstream: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe preread: 466
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 466 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write downstream: 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write busy: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write: out:0000000000000000, f:0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe read upstream: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 466 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer: 11, old: 1269022735884, new: 1269022735888
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream process upstream
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe read upstream: 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe buf free s:0 t:1 f:0 000000010085F200, pos 000000010085F28A, size: 466 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 input buf #0
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write downstream: 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write downstream flush in
+2010/03/19 11:17:55 [debug] 27399#0: *17 http output filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http ssi filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0 state: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 parse: 0, looked: 0 000000010085F28A-000000010085F322
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi block
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0 state: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 parse: 0, looked: 0 000000010085F340-000000010085F373
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi endblock
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0 state: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 parse: 0, looked: 0 000000010085F385-000000010085F392
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi flush
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi out: 0000000100860A18 000000010085F28A
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi out: 0000000100860C70 000000010085F385
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter "/?" 0000000100860A68
+2010/03/19 11:17:55 [debug] 27399#0: *17 http chunk: 152
+2010/03/19 11:17:55 [debug] 27399#0: *17 http chunk: 13
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 0000000000000000, pos 0000000100860D40, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 152 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 000000010085F200, pos 000000010085F385, size: 13 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter: l:0 f:0 s:326
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi include: "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 malloc: 0000000100861200:4096
+2010/03/19 11:17:55 [debug] 27399#0: *17 http subrequest "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0 state: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 parse: -2, looked: 0 000000010085F3E8-000000010085F45C
+2010/03/19 11:17:55 [debug] 27399#0: *17 saved: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi out: 0000000100860F28 000000010085F3E8
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter "/?" 0000000100860F78
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: 0 "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 pipe write downstream done
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer: 11, old: 1269022735884, new: 1269022735988
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream exit: 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 finalize http upstream request: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 finalize http proxy request
+2010/03/19 11:17:55 [debug] 27399#0: *17 free rr peer 1 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 close http upstream connection: 11
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer del: 11: 1269022735884
+2010/03/19 11:17:55 [debug] 27399#0: *17 http upstream temp fd: -1
+2010/03/19 11:17:55 [debug] 27399#0: *17 http output filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http ssi filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi out: 0000000100861010 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter "/?" 0000000100861060
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: 0 "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http finalize request: 0, "/?" 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer add: 8: 60000:1269022735988
+2010/03/19 11:17:55 [debug] 27399#0: *17 http posted request: "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 test location: "/"
+2010/03/19 11:17:55 [debug] 27399#0: *17 test location: "remote"
+2010/03/19 11:17:55 [debug] 27399#0: *17 using configuration "/remote"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http cl:-1 max:1048576
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 2
+2010/03/19 11:17:55 [debug] 27399#0: *17 post rewrite phase: 3
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 4
+2010/03/19 11:17:55 [debug] 27399#0: *17 generic phase: 5
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script copy: "http://"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script var: "#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http script copy: "/"
+2010/03/19 11:17:55 [error] 27399#0: *17 invalid port in upstream "#<TCPSocket:0x1073f7d40>:9501/", client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", subrequest: "/remote/", host: "localhost:9510"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http finalize request: 500, "/remote/?host=#<TCPSocket:0x1073f7d40>:9501" 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 ssi stub output: "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http output filter "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter "/remote/?host=#<TCPSocket:0x1073f7d40>:9501" 0000000100860BC8
+2010/03/19 11:17:55 [debug] 27399#0: *17 http chunk: 51
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000000000000, pos 0000000100860D40, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 152 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 000000010085F200, pos 000000010085F385, size: 13 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 0000000000000000, pos 00000001008611E0, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 0000000100860B90, pos 0000000100860B90, size: 51 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter: l:0 f:0 s:383
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: 0 "/remote/?host=#<TCPSocket:0x1073f7d40>:9501"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http wake parent request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http posted request: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http writer handler: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http output filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http ssi filter "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter "/?" 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 http postpone filter output "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http chunk: 116
+2010/03/19 11:17:55 [debug] 27399#0: *17 http chunk: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000100860650, pos 0000000100860650, size: 155 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000000000000, pos 0000000100860D40, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 000000010085F200, pos 000000010085F28A, size: 152 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 000000010085F200, pos 000000010085F385, size: 13 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000000000000, pos 00000001008611E0, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:1 f:0 0000000100860B90, pos 0000000100860B90, size: 51 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write old buf t:0 f:0 0000000000000000, pos 000000010006510C, size: 2 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 0000000000000000, pos 0000000100861EE0, size: 4 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:1 f:0 000000010085F200, pos 000000010085F3E8, size: 116 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:0 f:0 0000000000000000, pos 0000000000000000, size: 0 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 write new buf t:0 f:0 0000000000000000, pos 0000000100065104, size: 7 file: 0, size: 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter: l:1 f:0 s:510
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter limit 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 writev: 510 of 510
+2010/03/19 11:17:55 [debug] 27399#0: *17 http write filter 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 copy filter: 0 "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http writer output filter: 0, "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http writer done: "/?"
+2010/03/19 11:17:55 [debug] 27399#0: *17 http finalize request: 0, "/?" 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer del: 8: 1269022735988
+2010/03/19 11:17:55 [debug] 27399#0: *17 set http keepalive handler
+2010/03/19 11:17:55 [debug] 27399#0: *17 http close request
+2010/03/19 11:17:55 [debug] 27399#0: *17 http log handler
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 000000010085F200
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 000000010081DA00, unused: 1
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000100860200, unused: 14
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000100861200, unused: 477
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer add: 8: 65000:1269022740988
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 000000010080FE00
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000100803A00
+2010/03/19 11:17:55 [debug] 27399#0: *17 hc free: 0000000000000000 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 hc busy: 0000000000000000 0
+2010/03/19 11:17:55 [debug] 27399#0: *17 tcp_nodelay
+2010/03/19 11:17:55 [debug] 27399#0: *17 http empty handler
+2010/03/19 11:17:55 [debug] 27399#0: *17 http keepalive handler
+2010/03/19 11:17:55 [info] 27399#0: *17 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 11:17:55 [debug] 27399#0: *17 close http connection: 8
+2010/03/19 11:17:55 [debug] 27399#0: *17 event timer del: 8: 1269022740988
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000000000000
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 0000000100301230, unused: 8
+2010/03/19 11:17:55 [debug] 27399#0: *17 free: 00000001003015E0, unused: 128
+2010/03/19 11:20:50 [debug] 30763#0: kevent set event: 7: ft:-1 fl:0005
+2010/03/19 11:22:46 [info] 30773#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 11:59:48 [info] 30773#0: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 12:00:25 [info] 30773#0: *7 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 12:01:00 [info] 30773#0: *12 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 12:01:28 [info] 30773#0: *17 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 12:01:35 [error] 30773#0: *22 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", subrequest: "/remote/", upstream: "http://127.0.0.1:9501/", host: "localhost:9510"
+2010/03/19 12:01:35 [error] 30773#0: *22 kevent() reported about an closed connection (61: Connection refused) while reading response header from upstream, client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", subrequest: "/remote/", upstream: "http://127.0.0.1:9501/", host: "localhost:9510", referrer: "http://localhost:9510/"
+2010/03/19 12:02:10 [info] 30773#0: *22 kevent() reported that client 127.0.0.1 closed keepalive connection
+2010/03/19 12:03:14 [info] 30773#0: *51 kevent() reported that client 127.0.0.1 closed keepalive connection
