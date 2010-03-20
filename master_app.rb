@@ -1,5 +1,6 @@
 require 'erb'
 require 'array'
+require 'ruby-debug'
 
 class MasterApp
   def initialize(demo_server)
@@ -7,7 +8,9 @@ class MasterApp
     @view = ERB.new(File.read('master.erb'))
   end
 
-  def call(_)
+  def call(env)
+    debugger if env['REQUEST_PATH'] =~ /^\/debug/
+
     roles = @demo_server.roles.inject({}) { |o,(role,nodes)|
       node = nil
       while !node && nodes.size > 0

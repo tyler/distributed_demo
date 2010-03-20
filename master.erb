@@ -33,37 +33,29 @@
     <body>
         <div id="content">
             <% if roles['content'] %>
-            <!--# block name="pretend" -->
-            Content is unavailable!
-            <!--# endblock -->
-            <!--# include virtual="/remote/?host=<%= roles['content'] %>:9501" stub="pretend" -->
+            <!--# block name="content" --><!--# endblock -->
+            <!--# include virtual="/remote/<%= roles['content'] %>:9501" stub="content" -->
             <% end %>
         </div>
 
         <div id="search">
             <% if roles['search'] %>
-            <!--# block name="pretend" -->
-            Login Box is unavailable!
-            <!--# endblock -->
-            <!--# include virtual="/remote/?host=<%= roles['search'] %>:9501" stub="pretend" -->
+            <!--# block name="search" --><!--# endblock -->
+            <!--# include virtual="/remote/<%= roles['search'] %>:9501" stub="search" -->
             <% end %>
         </div>
 
         <div id="login_box">
             <% if roles['login_box'] %>
-            <!--# block name="pretend" -->
-            Login Box is unavailable!
-            <!--# endblock -->
-            <!--# include virtual="/remote/?host=<%= roles['login_box'] %>:9501" stub="pretend" -->
+            <!--# block name="login_box" --><!--# endblock -->
+            <!--# include virtual="/remote/<%= roles['login_box'] %>:9501" stub="login_box" -->
             <% end %>
         </div>
 
         <div id="new_users">
             <% if roles['new_users'] %>
-            <!--# block name="pretend" -->
-            New Users is unavailable!
-            <!--# endblock -->
-            <!--# include virtual="/remote/?host=<%= roles['new_users'] %>:9501" stub="pretend" -->
+            <!--# block name="new_users" --><!--# endblock -->
+            <!--# include virtual="/remote/<%= roles['new_users'] %>:9501" stub="new_users" -->
             <% end %>
         </div>
         

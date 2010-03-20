@@ -23,13 +23,20 @@ module Dist
       puts 'Listening...'
 
       while (tcp_session = @server.accept)
+        
+        remote_ip = tcp_session.remote_ip
+
+        @roles.each do |role,sockets|
+          sockets.select { |sock| sock.remote_ip == remote_ip }.each { |sock| sockets.delete(sock) }
+        end
+
         Thread.new do
           puts "Client connected: #{tcp_session.peeraddr.inspect}"
+          
+          role = next_role
 
           begin
             receive_message tcp_session, Messages::REQUEST_ROLE
-            
-            role = next_role
             
             tcp_session << Messages::SEND_ROLE_CONFIRM
             send_string tcp_session, role
@@ -42,14 +49,34 @@ module Dist
               @roles[role] << tcp_session
             else
               puts 'Role client sent back did not match role server sent... disconnecting client.'
-              tcp_session.close
+              tcp_session.close rescue nil
             end
           rescue UnexpectedMessage
             puts 'Unexpected message... disconnecting client.'
-            tcp_session.close
+            tcp_session.close rescue nil
           end
 
           p @roles
+          
+          begin
+            while true
+              sleep 3
+              tcp_session << Messages::REQUEST_HEARTBEAT
+              if tcp_session.ready_to_read?(5)
+                receive_message tcp_session, Messages::HEARTBEAT
+                #puts "#{remote_ip} - #{role}: Heartbeat"
+              else
+                puts "#{remote_ip} - #{role}: Timeout"
+                break
+              end
+            end
+          rescue => e
+            puts "#{remote_ip} - #{role}: #{e.message}"
+            puts "#{remote_ip} - #{role}: Dead"
+          ensure
+            tcp_session.close rescue nil
+            @roles[role].delete(tcp_session)
+          end
         end
       end
     end

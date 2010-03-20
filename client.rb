@@ -9,6 +9,8 @@ module Dist
     include Encoding
 
     def initialize(address)
+      leave_a_will
+
       host, port = address.split(':')
       @socket = TCPSocket.new(host, port.to_i)
 
@@ -24,10 +26,20 @@ module Dist
 
       # spin up rack app
       require "roles/#{role}/app"
-      Rack::Handler::Mongrel.run App.new, :Port => 9501
+      Thread.new { Rack::Handler::Mongrel.run App.new, :Port => 9501 }
+
+      while true
+        receive_message Messages::REQUEST_HEARTBEAT
+        @socket << Messages::HEARTBEAT
+      end
     end
 
     private
+
+    def leave_a_will
+      graceful_death = lambda { @socket.close }
+      %w[INT TERM].each { |code| Signal.trap(code, &graceful_death) }
+    end
 
     def receive_message(expected_message=nil)
       message = @socket.recv(1)
@@ -43,5 +55,6 @@ module Dist
 end
 
 if __FILE__ == $0
+  Thread.abort_on_exception = true
   Dist::Client.new(ARGV[0])
 end
