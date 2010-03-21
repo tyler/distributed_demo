@@ -1,17 +1,28 @@
 require 'erb'
 require 'array'
 require 'ruby-debug'
+require 'sinatra/base'
 
-class MasterApp
+class MasterApp < Sinatra::Base
   def initialize(demo_server)
     @demo_server = demo_server
-    @view = ERB.new(File.read('master.erb'))
   end
 
-  def call(env)
-    debugger if env['REQUEST_PATH'] =~ /^\/debug/
+  get '/disconnect' do
+    @demo_server.disconnect_ip params[:ip]
+    redirect '/status'
+  end
 
-    roles = @demo_server.roles.inject({}) { |o,(role,nodes)|
+  get '/status' do
+    erb :status
+  end
+
+  get '/debug' do
+    debugger
+  end
+
+  get '/' do
+    @roles = @demo_server.roles.inject({}) { |o,(role,nodes)|
       node = nil
       while !node && nodes.size > 0
         node = nodes.to_a.rand
@@ -23,6 +34,7 @@ class MasterApp
       o[role] = node && node.remote_ip
       o
     }
-    return [200, { 'Content-Type' => 'text/html' }, [@view.result(binding)]]
+
+    erb :master
   end
 end

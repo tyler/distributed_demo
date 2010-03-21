@@ -32,6 +32,8 @@ module Dist
         receive_message Messages::REQUEST_HEARTBEAT
         @socket << Messages::HEARTBEAT
       end
+    rescue UnexpectedMessage
+      puts 'Disconnected.'
     end
 
     private

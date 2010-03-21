@@ -32,30 +32,30 @@
 
     <body>
         <div id="content">
-            <% if roles['content'] %>
+            <% if @roles['content'] %>
             <!--# block name="content" --><!--# endblock -->
-            <!--# include virtual="/remote/<%= roles['content'] %>:9501" stub="content" -->
+            <!--# include virtual="/remote/<%= @roles['content'] %>:9501" stub="content" -->
             <% end %>
         </div>
 
         <div id="search">
-            <% if roles['search'] %>
+            <% if @roles['search'] %>
             <!--# block name="search" --><!--# endblock -->
-            <!--# include virtual="/remote/<%= roles['search'] %>:9501" stub="search" -->
+            <!--# include virtual="/remote/<%= @roles['search'] %>:9501" stub="search" -->
             <% end %>
         </div>
 
         <div id="login_box">
-            <% if roles['login_box'] %>
+            <% if @roles['login_box'] %>
             <!--# block name="login_box" --><!--# endblock -->
-            <!--# include virtual="/remote/<%= roles['login_box'] %>:9501" stub="login_box" -->
+            <!--# include virtual="/remote/<%= @roles['login_box'] %>:9501" stub="login_box" -->
             <% end %>
         </div>
 
         <div id="new_users">
-            <% if roles['new_users'] %>
+            <% if @roles['new_users'] %>
             <!--# block name="new_users" --><!--# endblock -->
-            <!--# include virtual="/remote/<%= roles['new_users'] %>:9501" stub="new_users" -->
+            <!--# include virtual="/remote/<%= @roles['new_users'] %>:9501" stub="new_users" -->
             <% end %>
         </div>
         

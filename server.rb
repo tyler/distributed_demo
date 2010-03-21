@@ -19,16 +19,22 @@ module Dist
 
     attr_reader :roles
 
+    def disconnect_ip(ip)
+      @roles.each do |role,sockets|
+        sockets.select { |sock| sock.remote_ip == ip }.each do |sock|
+          sockets.delete(sock)
+          sock.close
+        end
+      end
+    end
+
     def listen
       puts 'Listening...'
 
       while (tcp_session = @server.accept)
         
         remote_ip = tcp_session.remote_ip
-
-        @roles.each do |role,sockets|
-          sockets.select { |sock| sock.remote_ip == remote_ip }.each { |sock| sockets.delete(sock) }
-        end
+        disconnect_ip remote_ip
 
         Thread.new do
           puts "Client connected: #{tcp_session.peeraddr.inspect}"

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <h1>Connection Status</h1>
+
+        <% @demo_server.roles.each do |role,clients| %>
+
+        <h2><%= role %></h2>
+        <ul>
+            <% clients.each do |client| %>
+            <li>
+                <%= client.remote_ip %>
+                (<a href="/disconnect?ip=<%= client.remote_ip %>">disconnect</a>)
+            </li>
+            <% end %>
+        </ul>
+        <% end %>
+    </body>
+</html>
