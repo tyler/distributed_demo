@@ -1,3 +1,5 @@
+$: << './lib'
+
 require 'rubygems'
 require 'dist'
 require 'encoding'

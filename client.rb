@@ -1,3 +1,5 @@
+$: << './lib'
+
 require 'dist'
 require 'encoding'
 require 'messages'
