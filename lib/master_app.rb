@@ -1,11 +1,11 @@
 require 'erb'
 require 'array'
-require 'ruby-debug'
 require 'sinatra/base'
 
 class MasterApp < Sinatra::Base
   def initialize(demo_server)
     @demo_server = demo_server
+    super(*[])
   end
 
   get '/disconnect' do

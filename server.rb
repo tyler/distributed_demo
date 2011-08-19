@@ -7,7 +7,6 @@ require 'messages'
 require 'set'
 require 'rack'
 require 'master_app'
-require 'ruby-debug'
 require 'tcp_socket'
 
 module Dist
@@ -90,7 +89,7 @@ module Dist
     end
 
     def next_role
-      @roles.keys.min { |a,b| @roles[a].size <=> @roles[b].size }
+      @roles.keys.rand.min { |a,b| @roles[a].size <=> @roles[b].size }
     end
 
     def receive_message(session, expected_message=nil)
