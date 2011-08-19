@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'server'
+
+Thread.abort_on_exception = true
+
+require 'socket'
+require 'net/dns/mdns-sd'
+
+record = { 'description' => 'distributed_demo_server' }
+Net::DNS::MDNSSD.register(Socket.gethostname, '_demo_server._tcp', 'local', ARGV[0].to_i, record) do |reply|
+  p reply
+end
+
+
+server = Dist::Server.new(ARGV[0].to_i)
+Thread.new { server.listen }
+Rack::Handler::Thin.run MasterApp.new(server), :Port => 9505
